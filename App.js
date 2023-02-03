@@ -1,7 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import { Amplify } from "aws-amplify";
-import awsconfig from "./aws-exports";
+import awsconfig from "./src/aws-exports";
 
 Amplify.configure(awsconfig);
 

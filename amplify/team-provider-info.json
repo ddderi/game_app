@@ -10,6 +10,11 @@
       "StackName": "amplify-gameapp-gameapp-172111",
       "StackId": "arn:aws:cloudformation:us-east-2:095933790452:stack/amplify-gameapp-gameapp-172111/596e8a50-a393-11ed-a3ec-064d6a7eb466",
       "AmplifyAppId": "d2t27lk2sn933x"
+    },
+    "categories": {
+      "api": {
+        "gameapp": {}
+      }
     }
   }
 }

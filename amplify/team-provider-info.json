@@ -1,4 +1,17 @@
 {
+  "gameapptes": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gameapp-gameapptes-114141-authRole",
+      "UnauthRoleArn": "arn:aws:iam::095933790452:role/amplify-gameapp-gameapptes-114141-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::095933790452:role/amplify-gameapp-gameapptes-114141-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-gameapp-gameapptes-114141-deployment",
+      "UnauthRoleName": "amplify-gameapp-gameapptes-114141-unauthRole",
+      "StackName": "amplify-gameapp-gameapptes-114141",
+      "StackId": "arn:aws:cloudformation:us-west-1:095933790452:stack/amplify-gameapp-gameapptes-114141/160c1e90-a42d-11ed-8727-06b2d9dee905",
+      "AmplifyAppId": "d5bwvoqjj69tt"
+    }
+  },
   "gameapp": {
     "awscloudformation": {
       "AuthRoleName": "amplify-gameapp-gameapp-172111-authRole",
@@ -15,6 +28,32 @@
       "api": {
         "gameapp": {}
       }
+    }
+  },
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gameapp-dev-113559-authRole",
+      "UnauthRoleArn": "arn:aws:iam::095933790452:role/amplify-gameapp-dev-113559-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::095933790452:role/amplify-gameapp-dev-113559-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-gameapp-dev-113559-deployment",
+      "UnauthRoleName": "amplify-gameapp-dev-113559-unauthRole",
+      "StackName": "amplify-gameapp-dev-113559",
+      "StackId": "arn:aws:cloudformation:us-west-2:095933790452:stack/amplify-gameapp-dev-113559/4a590e20-a42c-11ed-9e2d-0aed3d628431",
+      "AmplifyAppId": "d1us4pfl4pk9jp"
+    }
+  },
+  "main": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gameapp-main-124836-authRole",
+      "UnauthRoleArn": "arn:aws:iam::095933790452:role/amplify-gameapp-main-124836-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::095933790452:role/amplify-gameapp-main-124836-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-gameapp-main-124836-deployment",
+      "UnauthRoleName": "amplify-gameapp-main-124836-unauthRole",
+      "StackName": "amplify-gameapp-main-124836",
+      "StackId": "arn:aws:cloudformation:us-west-2:095933790452:stack/amplify-gameapp-main-124836/6fe2d7c0-a436-11ed-9406-02e1093a2dd3",
+      "AmplifyAppId": "d3o6up72emxxrg"
     }
   }
 }

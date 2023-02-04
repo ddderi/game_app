@@ -1,17 +1,15 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { StatusBar, StyleSheet, Text, View } from "react-native";
 import { Amplify } from "aws-amplify";
 import awsconfig from "./aws-exports";
-import { Loggedout } from "./ui-components";
-
-<Loggedout />;
+import Home from "./components/Home";
 
 Amplify.configure(awsconfig);
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Loggedout />
+      <Home />
+      <StatusBar />
     </View>
   );
 }
